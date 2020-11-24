@@ -13,6 +13,7 @@
     <h2>click to contact pages</h2>
     <a href="{{ URL::to('/contact') }}">contact page</a>
     <h3>service encrypted url </h3>
+    
     <!- using direct route used->
     <a href="{{ Route('serviceii') }}">service page</a>
 
