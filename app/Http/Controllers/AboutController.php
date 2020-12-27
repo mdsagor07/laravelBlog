@@ -8,7 +8,7 @@ class AboutController extends Controller
 {
     public function Hello()
     {
-      echo "hello about page";
+      return view('about');
     }
-  
+
 }

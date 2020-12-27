@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 
 
-
+//route with controller for laravel 8
 Route::get('/about', 'App\Http\Controllers\AboutController@Hello');
 
 ///pages contact ... for Route engine
