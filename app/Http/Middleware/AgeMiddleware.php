@@ -16,6 +16,10 @@ class AgeMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
+      if($request->Age <=200)
+      {
+        return  redirect("home");
+      }
         return $next($request);
     }
 }
